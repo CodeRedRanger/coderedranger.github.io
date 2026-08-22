@@ -257,8 +257,13 @@ section > h2 {
 
 .skill-card h3 {
     margin-top: 0;
+     margin-bottom: 18px;
 }
 
+.skill-card p {
+    margin: 8px 0;
+    color: #b5bdc7;
+}
 
 /* --------------------
    FOOTER
