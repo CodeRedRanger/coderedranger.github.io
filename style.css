@@ -49,11 +49,15 @@ ADDING SPOTLIGHT MPEG
 
 </video>
 
-//in style.css
+//in style.css (already below)
 .spotlight-video {
+    display: block;
     width: 100%;
-    border-radius: 6px;
+    aspect-ratio: 16 / 9;
     margin-bottom: 15px;
+    border-radius: 6px;
+    object-fit: cover;
+}
 }
 
 
@@ -506,6 +510,15 @@ footer {
 
     border: 1px solid #30363d;
     border-radius: 8px;
+}
+
+.spotlight-video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
 .spotlight-card h5 {
