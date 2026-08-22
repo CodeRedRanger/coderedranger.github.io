@@ -154,12 +154,12 @@ main {
 }
 
 .primary {
-    background: #238636;
+    background: #B19cd9;
     color: white;
 }
 
 .primary:hover {
-    background: #2ea043;
+    background: #a55af4;
 }
 
 .secondary {
