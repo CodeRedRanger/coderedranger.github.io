@@ -551,6 +551,66 @@ footer {
     border: 1px solid #30363d;
 }
 
+/* --------------------
+   BACKGROUND
+-------------------- */
+
+.background-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.background-heading h2 {
+    margin-top: 8px;
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.15;
+}
+
+.background-content p {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: #b5bdc7;
+
+    font-size: 1.08rem;
+    line-height: 1.8;
+}
+
+.background-details {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+    margin-top: 45px;
+}
+
+.background-card {
+    padding: 25px;
+
+    background: #161b22;
+
+    border: 1px solid #30363d;
+    border-radius: 8px;
+}
+
+.background-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.background-card p {
+    margin-bottom: 10px;
+}
+
+.background-note {
+    color: #8b949e;
+    font-size: 0.9rem;
+}
+
 /* MOBILE */
 
 @media (max-width: 800px) {
@@ -598,4 +658,13 @@ footer {
     .media-placeholder {
         min-height: 250px;
     }
+
+    .background-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.background-details {
+    grid-template-columns: 1fr;
+}
 }
