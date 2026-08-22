@@ -31,6 +31,34 @@ Main text              #e6edf3     almost white
 Paragraph text         #b5bdc7     light gray
 
 Secondary text         #8b949e     darker gray
+
+ADDING SPOTLIGHT MPEG
+-save a 5 sec vid of a particular system/feature
+
+//in index.html
+<video
+    class="spotlight-video"
+    autoplay
+    muted
+    loop
+    playsinline>
+
+    <source
+        src="assets/videos/conversation-demo.mp4"
+        type="video/mp4">
+
+</video>
+
+//in style.css
+.spotlight-video {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+
+
+
 ----------*/
 
 /* --------------------
