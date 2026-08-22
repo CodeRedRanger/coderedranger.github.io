@@ -425,6 +425,48 @@ footer {
 
 
 /* --------------------
+   TECHNICAL SPOTLIGHTS
+-------------------- */
+
+.technical-spotlights {
+    margin-top: 40px;
+}
+
+.technical-spotlights h4 {
+    margin-bottom: 20px;
+    font-size: 1.35rem;
+}
+
+.spotlight-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.spotlight-card {
+    padding: 25px;
+
+    background: #0d1117;
+
+    border: 1px solid #30363d;
+    border-radius: 8px;
+}
+
+.spotlight-card h5 {
+    margin-top: 0;
+    margin-bottom: 12px;
+
+    font-size: 1.1rem;
+}
+
+.spotlight-card p {
+    margin-bottom: 0;
+
+    color: #b5bdc7;
+}
+
+
+/* --------------------
    STANDARD PROJECT
 -------------------- */
 
@@ -544,6 +586,10 @@ footer {
         padding: 25px;
     }
 
+.spotlight-grid {
+    grid-template-columns: 1fr;
+}
+    
     .media-placeholder {
         min-height: 250px;
     }
