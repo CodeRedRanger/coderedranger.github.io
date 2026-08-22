@@ -35,19 +35,31 @@ Secondary text         #8b949e     darker gray
 ADDING SPOTLIGHT MPEG
 -save a 5 sec vid of a particular system/feature
 
-//in index.html
-<video
-    class="spotlight-video"
-    autoplay
-    muted
-    loop
-    playsinline>
+//in index.html (change each spotlight card to include a looping video)
+<div class="spotlight-card">
 
-    <source
-        src="assets/videos/conversation-demo.mp4"
-        type="video/mp4">
+    <video
+        class="spotlight-video"
+        autoplay
+        muted
+        loop
+        playsinline>
 
-</video>
+        <source
+            src="assets/videos/conversation-demo.mp4"
+            type="video/mp4">
+
+    </video>
+
+    <h5>Branching Conversation System</h5>
+
+    <p>
+        Built a reusable dialogue system for multi-tier patient and NPC
+        interactions, including branching choices, outcome changes,
+        gameplay actions, and conversation state.
+    </p>
+
+</div>
 
 //in style.css (already below)
 .spotlight-video {
