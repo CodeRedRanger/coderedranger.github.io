@@ -225,7 +225,7 @@ section > h2 {
 }
 
 .project-type {
-    color: #58a6ff;
+    color: #a970ff;
 
     font-size: 0.8rem;
 
@@ -675,7 +675,7 @@ footer {
 .contact-card:hover {
     transform: translateY(-3px);
 
-    border-color: #58a6ff;
+    border-color: #a970ff;
 
     background: #1c2128;
 }
@@ -683,7 +683,7 @@ footer {
 .contact-label {
     margin-bottom: 6px;
 
-    color: #58a6ff;
+    color: #a970ff;
 
     font-size: 0.75rem;
     font-weight: bold;
@@ -727,7 +727,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #58a6ff;
+    color: #a970ff;
 }
 
 
